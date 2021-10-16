@@ -1,0 +1,55 @@
+.modalContainer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(38, 38, 38, 0.7);
+}
+
+.modalForm {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 30px 20px;
+  flex-basis: 500px;
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    margin-top: 30px;
+    padding: 10px;
+  }
+
+  &__close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+  }
+
+  &__btn,
+  &__description,
+  &__title {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+  }
+
+  &__description {
+    resize: none;
+    height: 250px;
+    overflow: auto;
+  }
+
+  &__btn {
+    background-color: #e8e8e8;
+    cursor: pointer;
+  }
+}

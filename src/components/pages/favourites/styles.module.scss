@@ -1,0 +1,13 @@
+.container {
+  padding: 20px;
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+
+  .info {
+    width: 100%;
+    text-align: center;
+    align-self: center;
+  }
+}
